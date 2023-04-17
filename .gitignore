@@ -1,0 +1,10 @@
+node_modules/
+test-results/
+playwright-report/
+playwright/.cache/
+allure-report/
+allure-results/
+screenshots/
+screenshot.png
+partial-screenshot.png
+state.json

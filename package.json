@@ -1,0 +1,21 @@
+{
+  "name": "playwrightcourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "webTest": "playwright test --grep '@Web'",
+    "cucumber": "cucumber-js --tags '@Regression' -retry 1 --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.2",
+    "allure-playwright": "^2.1.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.1.0"
+  }
+}
